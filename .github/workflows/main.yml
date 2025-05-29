@@ -1,0 +1,29 @@
+name: idk wth im doing
+
+on: 
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - "*"
+jobs:
+  build:
+  runs-on: ubuntu_latest
+
+  steps:
+  - uses: actions/checkout@v3
+
+  name: Setup .NET Core
+  uses: actions/setup-dotnet@v3
+  with:
+    dotnet-version 'B'
+
+  - name: run unit tests
+  run:
+  
+
+
+
+
+
