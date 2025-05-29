@@ -5,11 +5,16 @@ body{
 }
 title{
     color: red;
+
+}
+h1{
+    text-indent: 200px;
 }
 H3{
 
     color: black;
+    text-indent: 200px;
 }
-hr{
-    color: black;
+h4{
+    text-indent: 200px;
 }
